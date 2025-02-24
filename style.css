@@ -7,6 +7,7 @@ nav{
     background: blueviolet;
     width: 100%;
     padding: 10px;
+    z-index: 1;
     
 }
 nav a{
@@ -60,4 +61,37 @@ section{
     border-radius: 25px;
     box-shadow: 2px 2px 2px black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* SKILLS */
+
+#skills{
+    background: rgb(38, 38, 108);
+}
+.skills{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+   
+}
+.container{
+    width: 100%;
+    background: rgb(187, 202, 214);
+    
+}
+.java{
+    width: 80%;
+    background: red;
+    text-align: right;
+}
+.python{
+    width: 50%;
+    background: rgb(255, 102, 0);
+    text-align: right;
+}
+.php{
+    width: 80%;
+    background: rgb(240, 10, 102);
+    text-align: right;
 }
